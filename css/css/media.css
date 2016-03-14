@@ -1,0 +1,228 @@
+@media only screen and (max-width : 1200px) {
+	.bottom_header .main_button{
+		width: 45%;
+	}
+	.service .one_block{
+		margin-right: 0.5%;
+	}
+	.about_us{
+		height: 900px;
+	}
+	h3{
+		margin-top: 0px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.bottom_header .main_button{
+		width: 59%;
+	}
+	.main_logo img{
+		width: 100%;
+	}
+	.service{
+		height: 940px;
+	}
+	.service p{
+		width: 90%;
+	}
+	
+	.service .one_block{
+		width: 45%;
+		margin-bottom: 20px;
+		margin-right: 2%;
+
+	}
+	.about_us .box_about .ravsk {
+		width: 45%;
+	}
+	.about_us .box_about .maluk {
+		width: 45%;
+	}
+	.our_statistic .midle_block{
+		width: 100%;
+	}
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	header{
+		height: 400px;
+	}
+	.hidden_mnu{
+		display: block;
+		height: 0;
+	}
+	.main_nav{
+		display: none;
+	}
+	.main_logo img{
+		width: auto;
+		padding: 0;
+		margin-top: -6px;
+	}
+	.service .one_block{
+		width: 95%;
+		margin: 20px auto;	
+	}	
+	.service{
+		height: 1820px;
+	} 	
+	.service p{
+		width: 100%;
+		font-size: 18px;
+	}
+	.service .one_block p{
+		font-size: 18px;
+	}
+	.service .one_block h4{
+		font-size: 30px;
+		
+	}	
+	.service .one_block .ico1{
+		width: 60px;
+	}
+
+	.bottom_header h1 {
+		padding-top: 100px;
+		font-size:36px;
+	}
+	.bottom_header .main_button{
+		width: 74%;
+	}
+	.about_us{
+		height: 1850px;
+		padding-bottom: 0px;
+	}
+	.about_us .box_about .ravsk {
+		width: 100%;
+		height: 850px;
+		margin-bottom: 0px;
+	}
+	.about_us .box_about .ravsk p{
+		font-size: 14px;
+		text-align: center;
+	}
+	.about_us .box_about .maluk {
+		width: 100%;
+		height: 850px;
+	}
+	
+	.about_us .box_about .maluk p{
+		font-size: 14px;
+		text-align: center;
+	}
+	.our_statistic .midle_block{
+		background-image: none;
+	}
+	.navicon {
+		display: block;
+	}
+	.contacts form{
+		width: 100%;
+	}
+	.contacts form p .my_button{
+		width: 100%;
+	}
+	footer p {
+		display: inline;
+		width: 100%;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	footer .sociall {
+		display: block;
+		margin: 0 auto;
+		display: none;
+	}
+	.works .grid .grid-item{
+		margin: 0 auto;
+	}
+	.works #options{
+		width: 100%;
+		text-align: center;
+	}
+}
+@media only screen and (max-width : 600px) {
+	.bottom_header .main_button{
+		width: 95%;
+		margin-top: 20px;
+	}
+	.bottom_header h1 {
+		margin-bottom: 20px;
+	}
+	.contacts .centr_p{
+		width: 100%;
+	}
+	.contacts form{
+		height: 440px
+	}
+
+	.contacts form p{
+		width: 100%;
+	}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.our_statistic{
+		height: 850px; 
+	}
+	.our_statistic .midle_block .little_b .shiva{
+		margin-bottom: 15px;
+	}
+	.our_statistic .midle_block .little_b p{
+		margin-top: 20px;
+	}
+	.our_statistic .midle_block .little_b{
+		width: 100%;
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
+	.service{
+		height: 1910px;
+	}
+	.bottom_header h1 {
+		padding-top: 80px;
+		line-height: 1.2;
+		font-size:26px;
+	}
+	.main_logo{
+		width: 75%;
+	}
+	.main_logo img{
+		width: 100%;
+	}
+	.bottom_header .main_button .left{
+		display: block;
+		float: none;
+		width: 75%;
+		margin: 10px auto;
+	    text-align: center;
+	}
+	.bottom_header .main_button .right{
+		display: block;
+		float: none;
+		width: 85%;
+		margin: 10px auto;
+	    text-align: center;
+	}
+	.service .one_block p{
+		font-size: 16px;
+	}
+	.service .one_block h4{
+		font-size: 24px;
+	}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.about_us .box_about .ravsk img{
+		width: 100%;
+		height: auto;
+	}
+	.about_us .box_about .maluk img{
+		width: 100%;
+		height: auto;
+	}
+}
