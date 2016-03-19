@@ -91,9 +91,6 @@ $(document).ready(function(){
 	
 	$('.grid').isotope({
 	  		itemSelector: '.grid-item',
-	  		masonry: {
-            
-        }
 	});
 
 	var $container = $('.isotope');
