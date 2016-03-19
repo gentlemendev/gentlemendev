@@ -536,16 +536,17 @@ small {
 /* line 412, ../sass/style.scss */
 .service p {
   display: block;
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   text-align: center;
-  color: #373737;
+  color: #6E6E6E;
   font-family: Calibri;
   font-size: 18px;
-  font-weight: 400;
+  line-height: 18px;
+  font-weight: 600;
   margin-bottom: 55px;
 }
-/* line 423, ../sass/style.scss */
+/* line 424, ../sass/style.scss */
 .service .blocks {
   display: block;
   height: 350px;
@@ -555,38 +556,40 @@ small {
   -o-animation-duration: 1.5s;
   animation-duration: 1.5s;
 }
-/* line 433, ../sass/style.scss */
+/* line 434, ../sass/style.scss */
 .service .one_block {
   border: solid 1px #ebebeb;
   width: 23%;
   float: left;
   margin-right: 1%;
   padding: 36px 4px 0 4px;
+  height: 330px;
 }
-/* line 439, ../sass/style.scss */
+/* line 441, ../sass/style.scss */
 .service .one_block:hover {
   background-image: url(../../img/box_bg.png);
   background-size: cover;
   border: none;
 }
-/* line 443, ../sass/style.scss */
+/* line 445, ../sass/style.scss */
 .service .one_block:hover h4 {
   color: white;
 }
-/* line 446, ../sass/style.scss */
+/* line 448, ../sass/style.scss */
 .service .one_block:hover p {
   color: white;
+  margin-bottom: 0;
 }
-/* line 449, ../sass/style.scss */
+/* line 452, ../sass/style.scss */
 .service .one_block:hover .ico1 {
   background-color: white !important;
   transition: all 0.5s;
 }
-/* line 452, ../sass/style.scss */
+/* line 455, ../sass/style.scss */
 .service .one_block:hover .ico1 i {
   color: #478da0 !important;
 }
-/* line 457, ../sass/style.scss */
+/* line 460, ../sass/style.scss */
 .service .one_block .ico1 {
   display: block;
   width: 50px;
@@ -596,7 +599,7 @@ small {
   background-color: #919190;
   margin: 0 auto;
 }
-/* line 465, ../sass/style.scss */
+/* line 468, ../sass/style.scss */
 .service .one_block .ico1 i {
   font-size: 40px;
   text-align: center;
@@ -604,7 +607,7 @@ small {
   display: block;
   vertical-align: middle;
 }
-/* line 473, ../sass/style.scss */
+/* line 476, ../sass/style.scss */
 .service .one_block p {
   width: 86%;
   color: #919190;
@@ -613,7 +616,7 @@ small {
   font-weight: 400;
   line-height: 24px;
 }
-/* line 481, ../sass/style.scss */
+/* line 484, ../sass/style.scss */
 .service .one_block h4 {
   color: #6e6e6e;
   font-family: "PT Sans", sans-serif;
@@ -627,7 +630,7 @@ small {
 }
 
 /*Begin Work style */
-/* line 495, ../sass/style.scss */
+/* line 498, ../sass/style.scss */
 .works {
   background-color: #f1f1f1;
   display: block;
@@ -636,7 +639,7 @@ small {
   z-index: 3;
   padding-bottom: 70px;
 }
-/* line 503, ../sass/style.scss */
+/* line 506, ../sass/style.scss */
 .works #options {
   display: block;
   width: 100%;
@@ -644,7 +647,7 @@ small {
   margin: 0 auto;
   padding-bottom: 50px;
 }
-/* line 509, ../sass/style.scss */
+/* line 512, ../sass/style.scss */
 .works #options button {
   background: none;
   border: none;
@@ -652,113 +655,79 @@ small {
   font-size: 14px;
   line-height: 24px;
 }
-/* line 515, ../sass/style.scss */
+/* line 518, ../sass/style.scss */
 .works #options button:hover {
   color: white;
   font-weight: 400;
   background-color: #478da0;
 }
-/* line 523, ../sass/style.scss */
-.works .grid .hidden {
-  display: none;
-}
 /* line 525, ../sass/style.scss */
-.works .grid .hidden .podrt_descr {
-  background-color: #fff;
-  max-width: 500px;
-  margin: auto;
+.works .grid {
+  height: 700px;
 }
-/* line 529, ../sass/style.scss */
-.works .grid .hidden .podrt_descr p {
-  padding: 20px;
-  padding-bottom: 0;
-  margin-bottom: 0;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 400;
-  margin-top: 20px;
-  padding-top: 25px;
-}
-/* line 539, ../sass/style.scss */
-.works .grid .hidden .podrt_descr img {
-  width: 100%;
-  margin-top: 10px;
-  margin: 0 auto;
-}
-/* line 546, ../sass/style.scss */
+/* line 527, ../sass/style.scss */
 .works .grid .grid-item {
-  margin-right: 4px;
-  top: 5px;
-}
-/* line 549, ../sass/style.scss */
-.works .grid .grid-item img {
-  top: 5px;
-  display: block;
-  width: 100%;
-}
-/* line 554, ../sass/style.scss */
-.works .grid .grid-item .port_item_cont {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: auto;
-  height: 100%;
-  background-color: rgba(9, 9, 9, 0.88);
-  text-align: center;
-  opacity: 0;
-  padding: 0 5% 0 5%;
-  transition: all 0.5s;
+  padding: 2px;
+  width: 368px;
+  height: 345px;
+  float: left;
   overflow: hidden;
 }
-/* line 566, ../sass/style.scss */
-.works .grid .grid-item .port_item_cont h3 {
-  color: white;
-  font-family: "PT Sans", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 11px;
-  text-transform: uppercase;
-  margin-bottom: 3%;
-  padding-top: 33%;
+/* line 534, ../sass/style.scss */
+.works .grid .grid-item:hover .port_item_cont {
+  opacity: 1;
+  padding-top: 20%;
+  width: auto;
+  height: 345px;
+  float: left;
+  overflow: hidden;
 }
-/* line 576, ../sass/style.scss */
+/* line 543, ../sass/style.scss */
+.works .grid .grid-item img {
+  width: 368px;
+  height: 345px;
+}
+/* line 547, ../sass/style.scss */
+.works .grid .grid-item .port_item_cont {
+  margin-top: -349px;
+  position: relative;
+  z-index: 100;
+  width: 368px;
+  height: 345px;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding-top: 15%;
+  opacity: 0;
+  transition: all .5s;
+  overflow: hidden;
+}
+/* line 559, ../sass/style.scss */
+.works .grid .grid-item .port_item_cont h3 {
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+/* line 564, ../sass/style.scss */
 .works .grid .grid-item .port_item_cont p {
   color: white;
-  font-family: Calibri;
-  font-size: 14px;
-  font-weight: 300;
-  margin-bottom: 10%;
-  line-height: 1.1em;
+  padding: 10px 20px;
+  margin: 15px;
 }
-/* line 584, ../sass/style.scss */
+/* line 569, ../sass/style.scss */
 .works .grid .grid-item .port_item_cont a {
-  text-shadow: 0 0 2.5px #191919;
-  color: white;
-  font-family: "PT Sans", sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 11px;
-  text-transform: uppercase;
-  padding: 5px 15px;
-  border: solid 2px #69daf8;
+  background-color: transparent;
+  border: #69daf8 1px solid;
+  padding: 5px 10px;
+  color: #69daf8;
+  display: inline-block;
 }
-/* line 594, ../sass/style.scss */
+/* line 575, ../sass/style.scss */
 .works .grid .grid-item .port_item_cont a:hover {
-  border: solid 2px #478da0;
-}
-/* line 598, ../sass/style.scss */
-.works .grid .grid-item .port_item_cont .img_width {
-  width: 100%;
-}
-/* line 603, ../sass/style.scss */
-.works .grid .grid-item:hover .port_item_cont {
-  width: auto;
-  height: 100%;
-  opacity: 1;
-  padding: 0 5% 0 5%;
+  color: #478da0;
+  border: #478da0 1px solid;
 }
 
-/* line 614, ../sass/style.scss */
+/* line 585, ../sass/style.scss */
 .about_us {
   display: block;
   height: 100%;
@@ -766,25 +735,25 @@ small {
   z-index: 3;
   padding-bottom: 70px;
 }
-/* line 620, ../sass/style.scss */
+/* line 591, ../sass/style.scss */
 .about_us .box_about {
   height: 700px;
 }
-/* line 622, ../sass/style.scss */
+/* line 593, ../sass/style.scss */
 .about_us .box_about .maluk {
   display: block;
   height: 100%;
   float: left;
   width: 40%;
 }
-/* line 627, ../sass/style.scss */
+/* line 598, ../sass/style.scss */
 .about_us .box_about .maluk img {
   display: block;
   width: auto;
   margin: 0 auto;
   padding-bottom: 20px;
 }
-/* line 633, ../sass/style.scss */
+/* line 604, ../sass/style.scss */
 .about_us .box_about .maluk h3 {
   font-family: Arial;
   font-size: 22px;
@@ -792,11 +761,11 @@ small {
   line-height: 31px;
   color: #686767;
 }
-/* line 639, ../sass/style.scss */
+/* line 610, ../sass/style.scss */
 .about_us .box_about .maluk h3 span {
   color: #478da0;
 }
-/* line 643, ../sass/style.scss */
+/* line 614, ../sass/style.scss */
 .about_us .box_about .maluk p {
   margin-bottom: 10px;
   color: #686767;
@@ -805,7 +774,7 @@ small {
   font-weight: 400;
   line-height: 18px;
 }
-/* line 651, ../sass/style.scss */
+/* line 622, ../sass/style.scss */
 .about_us .box_about .maluk h4 {
   font-family: Arial;
   font-size: 20px;
@@ -813,7 +782,7 @@ small {
   line-height: 42px;
   color: #6e6e6e;
 }
-/* line 659, ../sass/style.scss */
+/* line 630, ../sass/style.scss */
 .about_us .box_about .maluk .skil_box span {
   display: block;
   width: 10%;
@@ -829,7 +798,7 @@ small {
   font-weight: 400;
   margin-top: -3px;
 }
-/* line 674, ../sass/style.scss */
+/* line 645, ../sass/style.scss */
 .about_us .box_about .maluk .skil_box h5 {
   color: #6e6e6e;
   font-family: Arial;
@@ -838,7 +807,7 @@ small {
   line-height: 14px;
   margin-top: 10px;
 }
-/* line 684, ../sass/style.scss */
+/* line 655, ../sass/style.scss */
 .about_us .box_about .ravsk {
   display: block;
   height: 100%;
@@ -846,14 +815,14 @@ small {
   width: 40%;
   margin-bottom: 70px;
 }
-/* line 690, ../sass/style.scss */
+/* line 661, ../sass/style.scss */
 .about_us .box_about .ravsk img {
   display: block;
   width: auto;
   margin: 0 auto;
   padding-bottom: 20px;
 }
-/* line 696, ../sass/style.scss */
+/* line 667, ../sass/style.scss */
 .about_us .box_about .ravsk h3 {
   font-family: Arial;
   font-size: 22px;
@@ -861,11 +830,11 @@ small {
   line-height: 31px;
   color: #686767;
 }
-/* line 702, ../sass/style.scss */
+/* line 673, ../sass/style.scss */
 .about_us .box_about .ravsk h3 span {
   color: #478da0;
 }
-/* line 706, ../sass/style.scss */
+/* line 677, ../sass/style.scss */
 .about_us .box_about .ravsk p {
   margin-bottom: 10px;
   color: #686767;
@@ -874,7 +843,7 @@ small {
   font-weight: 400;
   line-height: 18px;
 }
-/* line 714, ../sass/style.scss */
+/* line 685, ../sass/style.scss */
 .about_us .box_about .ravsk h4 {
   font-family: Arial;
   font-size: 20px;
@@ -882,7 +851,7 @@ small {
   line-height: 42px;
   color: #6e6e6e;
 }
-/* line 722, ../sass/style.scss */
+/* line 693, ../sass/style.scss */
 .about_us .box_about .ravsk .skil_box span {
   display: block;
   width: 10%;
@@ -898,7 +867,7 @@ small {
   font-weight: 400;
   margin-top: -3px;
 }
-/* line 737, ../sass/style.scss */
+/* line 708, ../sass/style.scss */
 .about_us .box_about .ravsk .skil_box h5 {
   color: #6e6e6e;
   font-family: Arial;
@@ -908,7 +877,7 @@ small {
   margin-top: 10px;
 }
 
-/* line 749, ../sass/style.scss */
+/* line 720, ../sass/style.scss */
 .our_statistic {
   display: block;
   height: 400px;
@@ -918,7 +887,7 @@ small {
   background-attachment: fixed;
   background-position: center;
 }
-/* line 757, ../sass/style.scss */
+/* line 728, ../sass/style.scss */
 .our_statistic .midle_block {
   width: 70%;
   margin: 0 auto;
@@ -927,17 +896,17 @@ small {
   background-position: center;
   background-size: 70%;
 }
-/* line 764, ../sass/style.scss */
+/* line 735, ../sass/style.scss */
 .our_statistic .midle_block .little_b {
   text-align: center;
 }
-/* line 766, ../sass/style.scss */
+/* line 737, ../sass/style.scss */
 .our_statistic .midle_block .little_b .shiva {
   color: white;
   font-size: 36px;
   margin-bottom: 30px;
 }
-/* line 770, ../sass/style.scss */
+/* line 741, ../sass/style.scss */
 .our_statistic .midle_block .little_b .shiva h3 {
   color: white;
   font-family: Arial;
@@ -948,7 +917,7 @@ small {
   margin-bottom: 30px;
   display: inline;
 }
-/* line 781, ../sass/style.scss */
+/* line 752, ../sass/style.scss */
 .our_statistic .midle_block .little_b .img_wrap {
   width: 90px;
   line-height: 90px;
@@ -956,12 +925,12 @@ small {
   background-color: white;
   border-radius: 50%;
 }
-/* line 787, ../sass/style.scss */
+/* line 758, ../sass/style.scss */
 .our_statistic .midle_block .little_b .img_wrap img {
   vertical-align: middle;
   margin: 0 auto;
 }
-/* line 792, ../sass/style.scss */
+/* line 763, ../sass/style.scss */
 .our_statistic .midle_block .little_b p {
   color: white;
   font-family: Arial;
@@ -972,21 +941,21 @@ small {
   margin-top: 40px;
 }
 
-/* line 804, ../sass/style.scss */
+/* line 775, ../sass/style.scss */
 .blok-l {
   display: block;
   width: 30%;
   float: left;
 }
 
-/* line 809, ../sass/style.scss */
+/* line 780, ../sass/style.scss */
 .blok-c {
   display: inline-block;
   width: 40%;
   margin: 0 auto;
 }
 
-/* line 814, ../sass/style.scss */
+/* line 785, ../sass/style.scss */
 .blok-r {
   display: block;
   width: 30%;
@@ -994,23 +963,23 @@ small {
 }
 
 /* Starting Feedback*/
-/* line 820, ../sass/style.scss */
+/* line 791, ../sass/style.scss */
 .feedback {
   background-color: #c6e5ed;
 }
-/* line 822, ../sass/style.scss */
+/* line 793, ../sass/style.scss */
 .feedback .feed_cont {
   width: 70%;
   margin: 0 auto;
 }
-/* line 825, ../sass/style.scss */
+/* line 796, ../sass/style.scss */
 .feedback .feed_cont #slides {
   overflow: hidden;
   position: relative;
   width: 100%;
   height: 160px;
 }
-/* line 830, ../sass/style.scss */
+/* line 801, ../sass/style.scss */
 .feedback .feed_cont #slides ul {
   list-style: none;
   width: 100%;
@@ -1019,7 +988,7 @@ small {
   padding: 0;
   position: relative;
 }
-/* line 837, ../sass/style.scss */
+/* line 808, ../sass/style.scss */
 .feedback .feed_cont #slides ul li {
   width: 100%;
   height: 160px;
@@ -1028,7 +997,7 @@ small {
   position: relative;
   font-family: lato, sans-serif;
 }
-/* line 844, ../sass/style.scss */
+/* line 815, ../sass/style.scss */
 .feedback .feed_cont #slides ul li p {
   color: #6e6e6e;
   font-family: "PT Sans", sans-serif;
@@ -1036,7 +1005,7 @@ small {
   font-weight: 400;
   margin-bottom: 40px;
 }
-/* line 851, ../sass/style.scss */
+/* line 822, ../sass/style.scss */
 .feedback .feed_cont #slides ul li h5 {
   color: #478da0;
   font-family: "PT Sans", sans-serif;
@@ -1045,7 +1014,7 @@ small {
   font-weight: 700;
   margin-bottom: 20px;
 }
-/* line 859, ../sass/style.scss */
+/* line 830, ../sass/style.scss */
 .feedback .feed_cont #slides ul li span {
   color: #6e6e6e;
   font-weight: 400;
@@ -1054,13 +1023,13 @@ small {
 
 /*end Feedback*/
 /*begin concatact*/
-/* line 872, ../sass/style.scss */
+/* line 843, ../sass/style.scss */
 .contacts {
   display: block;
   width: 100%;
   padding-bottom: 70px;
 }
-/* line 876, ../sass/style.scss */
+/* line 847, ../sass/style.scss */
 .contacts .centr_p {
   width: 60%;
   margin: 0 auto;
@@ -1072,13 +1041,13 @@ small {
   line-height: 21px;
   margin-bottom: 70px;
 }
-/* line 887, ../sass/style.scss */
+/* line 858, ../sass/style.scss */
 .contacts form {
   width: 76%;
   margin: 0 auto;
   height: 400px;
 }
-/* line 891, ../sass/style.scss */
+/* line 862, ../sass/style.scss */
 .contacts form p {
   display: inline-block;
   width: 45%;
@@ -1091,7 +1060,7 @@ small {
   color: #6e6e6e;
   margin-bottom: 20px;
 }
-/* line 902, ../sass/style.scss */
+/* line 873, ../sass/style.scss */
 .contacts form p input {
   border: none;
   border-bottom: solid 1px #ebebeb;
@@ -1100,24 +1069,24 @@ small {
   height: 20px;
   margin-top: 10px;
 }
-/* line 909, ../sass/style.scss */
+/* line 880, ../sass/style.scss */
 .contacts form p input:hover {
   border: none;
   border-bottom: solid 1px #69daf8;
 }
-/* line 914, ../sass/style.scss */
+/* line 885, ../sass/style.scss */
 .contacts form p textarea {
   border: none;
   border-bottom: solid 1px #ebebeb;
   width: 100%;
   height: 80px;
 }
-/* line 919, ../sass/style.scss */
+/* line 890, ../sass/style.scss */
 .contacts form p textarea:hover {
   border: none;
   border-bottom: solid 1px #69daf8;
 }
-/* line 924, ../sass/style.scss */
+/* line 895, ../sass/style.scss */
 .contacts form p .my_button {
   display: block;
   width: 40%;
@@ -1129,11 +1098,11 @@ small {
   font-size: 1em;
   font-weight: 400;
 }
-/* line 934, ../sass/style.scss */
+/* line 905, ../sass/style.scss */
 .contacts form p .my_button:hover {
   background-color: #69daf8;
 }
-/* line 939, ../sass/style.scss */
+/* line 910, ../sass/style.scss */
 .contacts form .full_width {
   width: 100%;
   margin-top: 20px;
@@ -1141,7 +1110,7 @@ small {
 
 /*end contacts*/
 /*begin footer*/
-/* line 948, ../sass/style.scss */
+/* line 919, ../sass/style.scss */
 footer {
   background-color: #478da0;
   height: 100px;
@@ -1152,27 +1121,27 @@ footer {
   font-weight: 400;
   color: #505050;
 }
-/* line 957, ../sass/style.scss */
+/* line 928, ../sass/style.scss */
 footer p {
   display: inline-block;
   float: left;
   width: 50%;
   margin-top: 50px;
 }
-/* line 962, ../sass/style.scss */
+/* line 933, ../sass/style.scss */
 footer p span {
   color: #ebebeb;
   font-weight: 500;
   text-transform: uppercase;
   padding-left: 10px;
 }
-/* line 970, ../sass/style.scss */
+/* line 941, ../sass/style.scss */
 footer .sociall {
   float: right;
   width: 50%;
   color: white;
 }
-/* line 974, ../sass/style.scss */
+/* line 945, ../sass/style.scss */
 footer .sociall p {
   float: right;
   margin-top: 40px;
@@ -1184,7 +1153,7 @@ footer .sociall p {
   font-family: "PT Sans", sans-serif;
   margin-right: 15px;
 }
-/* line 985, ../sass/style.scss */
+/* line 956, ../sass/style.scss */
 footer .sociall ul {
   float: right;
   padding-top: 45px;
@@ -1192,21 +1161,21 @@ footer .sociall ul {
   display: inline-block;
   text-align: left;
 }
-/* line 991, ../sass/style.scss */
+/* line 962, ../sass/style.scss */
 footer .sociall ul li {
   display: inline-block;
   float: left;
   margin-left: 10px;
 }
-/* line 995, ../sass/style.scss */
+/* line 966, ../sass/style.scss */
 footer .sociall ul li a {
   padding: 5px;
 }
-/* line 998, ../sass/style.scss */
+/* line 969, ../sass/style.scss */
 footer .sociall ul li a:hover i {
   color: #69daf8;
 }
-/* line 1002, ../sass/style.scss */
+/* line 973, ../sass/style.scss */
 footer .sociall ul li a i {
   color: white;
   font-size: 18px;

@@ -89,9 +89,9 @@ $(document).ready(function(){
     preloader: false,
   });
 	
-	$('.grid').isotope({
-	  		itemSelector: '.grid-item',
-	});
+//	$('.grid').isotope({
+	//  		itemSelector: '.grid-item',
+//	});
 
 	var $container = $('.isotope');
     // filter buttons
