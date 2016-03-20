@@ -11,6 +11,20 @@
 	h3{
 		margin-top: 0px;
 	}
+	.works{
+	    height: 800px;
+	}    
+	.works .grid .grid-item {
+		height: 300px;
+	}
+	.works .grid .grid-item:hover .port_item_cont {
+		width: auto;
+  		height: 300px;
+	}
+	.works .grid .grid-item .port_item_cont {
+		width: auto;
+  		height: 300px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -18,11 +32,17 @@
 	.bottom_header .main_button{
 		width: 59%;
 	}
+	.my_style_form{
+		width: 72%;
+	}
+	.my_style_form .mfp-close {
+    	right: 13% !important;
+	}
 	.main_logo img{
 		width: 100%;
 	}
 	.service{
-		height: 940px;
+		height: 990px;
 	}
 	.service p{
 		width: 90%;
@@ -33,6 +53,23 @@
 		margin-bottom: 20px;
 		margin-right: 2%;
 
+	}
+	.works{
+		height: 1270px;
+	}
+	.works .grid .grid-item {
+		width: 48%;
+		height: 350px;
+	}
+	.works .grid .grid-item:hover .port_item_cont {
+		width: auto;
+  		height: 350px;
+  		margin-top: -400px;
+	}
+	.works .grid .grid-item .port_item_cont {
+		width: auto;
+  		height: 350px;
+  		margin-top: -400px;
 	}
 	.about_us .box_about .ravsk {
 		width: 45%;
@@ -60,6 +97,12 @@
 		width: auto;
 		padding: 0;
 		margin-top: -6px;
+	}
+	.my_style_form{
+		width: 92%;
+	}
+	.my_style_form .mfp-close {
+    	right: 3% !important;
 	}
 	.service .one_block{
 		width: 95%;
@@ -89,6 +132,25 @@
 	}
 	.bottom_header .main_button{
 		width: 74%;
+	}
+	.works{
+		height: 2620px;
+	}
+	.works .grid .grid-item {
+		width: 75%;
+		height: 400px;
+		display: block;
+		margin-left: 12%;
+	}
+	.works .grid .grid-item:hover .port_item_cont {
+		width: auto;
+  		height: 400px;
+  		margin-top: -409px;
+	}
+	.works .grid .grid-item .port_item_cont {
+		width: auto;
+		margin-top: -459px;
+  		height: 400px;
 	}
 	.about_us{
 		height: 1850px;
@@ -135,15 +197,31 @@
 		margin: 0 auto;
 		display: none;
 	}
-	.works .grid .grid-item{
-		margin: 0 auto;
-	}
 	.works #options{
 		width: 100%;
 		text-align: center;
 	}
 }
 @media only screen and (max-width : 600px) {
+	.works{
+		height: 2420px;
+	}
+	.works .grid .grid-item {
+		width: 86%;
+		height: 400px;
+		display: block;
+		margin-left: 7%;
+	}
+	.works .grid .grid-item:hover .port_item_cont {
+		width: auto;
+  		height: 400px;
+  		margin-top: -409px;
+	}
+	.works .grid .grid-item .port_item_cont {
+		width: auto;
+		margin-top: -459px;
+  		height: 400px;
+	}
 	.bottom_header .main_button{
 		width: 95%;
 		margin-top: 20px;
@@ -177,6 +255,25 @@
 		width: 100%;
 		margin: 0 auto;
 		margin-bottom: 30px;
+	}
+	.works{
+		height: 1880px;
+	}
+	.works .grid .grid-item {
+		width: 86%;
+		height: 270px;
+		display: block;
+		margin-left: 7%;
+	}
+	.works .grid .grid-item:hover .port_item_cont {
+		width: auto;
+  		height: 270px;
+  		margin-top: -279px;
+	}
+	.works .grid .grid-item .port_item_cont {
+		width: auto;
+		margin-top: -279px;
+  		height: 270px;
 	}
 	.service{
 		height: 1910px;

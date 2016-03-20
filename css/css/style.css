@@ -541,9 +541,9 @@ small {
   text-align: center;
   color: #6E6E6E;
   font-family: Calibri;
-  font-size: 18px;
-  line-height: 18px;
-  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 100;
   margin-bottom: 55px;
 }
 /* line 424, ../sass/style.scss */
@@ -668,7 +668,7 @@ small {
 /* line 527, ../sass/style.scss */
 .works .grid .grid-item {
   padding: 2px;
-  width: 368px;
+  width: 32%;
   height: 345px;
   float: left;
   overflow: hidden;
@@ -684,15 +684,15 @@ small {
 }
 /* line 543, ../sass/style.scss */
 .works .grid .grid-item img {
-  width: 368px;
-  height: 345px;
+  width: 100%;
+  height: 100%;
 }
 /* line 547, ../sass/style.scss */
 .works .grid .grid-item .port_item_cont {
   margin-top: -349px;
   position: relative;
   z-index: 100;
-  width: 368px;
+  width: auto;
   height: 345px;
   background-color: rgba(0, 0, 0, 0.8);
   text-align: center;
@@ -1014,22 +1014,26 @@ small {
   font-weight: 700;
   margin-bottom: 20px;
 }
-/* line 830, ../sass/style.scss */
-.feedback .feed_cont #slides ul li span {
+/* line 831, ../sass/style.scss */
+.feedback .feed_cont #slides ul li span a {
   color: #6e6e6e;
   font-weight: 400;
   text-transform: uppercase;
 }
+/* line 835, ../sass/style.scss */
+.feedback .feed_cont #slides ul li span a:hover {
+  color: white;
+}
 
 /*end Feedback*/
 /*begin concatact*/
-/* line 843, ../sass/style.scss */
+/* line 848, ../sass/style.scss */
 .contacts {
   display: block;
   width: 100%;
   padding-bottom: 70px;
 }
-/* line 847, ../sass/style.scss */
+/* line 852, ../sass/style.scss */
 .contacts .centr_p {
   width: 60%;
   margin: 0 auto;
@@ -1041,13 +1045,13 @@ small {
   line-height: 21px;
   margin-bottom: 70px;
 }
-/* line 858, ../sass/style.scss */
+/* line 863, ../sass/style.scss */
 .contacts form {
   width: 76%;
   margin: 0 auto;
   height: 400px;
 }
-/* line 862, ../sass/style.scss */
+/* line 867, ../sass/style.scss */
 .contacts form p {
   display: inline-block;
   width: 45%;
@@ -1060,7 +1064,7 @@ small {
   color: #6e6e6e;
   margin-bottom: 20px;
 }
-/* line 873, ../sass/style.scss */
+/* line 878, ../sass/style.scss */
 .contacts form p input {
   border: none;
   border-bottom: solid 1px #ebebeb;
@@ -1069,24 +1073,24 @@ small {
   height: 20px;
   margin-top: 10px;
 }
-/* line 880, ../sass/style.scss */
+/* line 885, ../sass/style.scss */
 .contacts form p input:hover {
   border: none;
   border-bottom: solid 1px #69daf8;
 }
-/* line 885, ../sass/style.scss */
+/* line 890, ../sass/style.scss */
 .contacts form p textarea {
   border: none;
   border-bottom: solid 1px #ebebeb;
   width: 100%;
   height: 80px;
 }
-/* line 890, ../sass/style.scss */
+/* line 895, ../sass/style.scss */
 .contacts form p textarea:hover {
   border: none;
   border-bottom: solid 1px #69daf8;
 }
-/* line 895, ../sass/style.scss */
+/* line 900, ../sass/style.scss */
 .contacts form p .my_button {
   display: block;
   width: 40%;
@@ -1098,11 +1102,11 @@ small {
   font-size: 1em;
   font-weight: 400;
 }
-/* line 905, ../sass/style.scss */
+/* line 910, ../sass/style.scss */
 .contacts form p .my_button:hover {
   background-color: #69daf8;
 }
-/* line 910, ../sass/style.scss */
+/* line 915, ../sass/style.scss */
 .contacts form .full_width {
   width: 100%;
   margin-top: 20px;
@@ -1110,7 +1114,7 @@ small {
 
 /*end contacts*/
 /*begin footer*/
-/* line 919, ../sass/style.scss */
+/* line 924, ../sass/style.scss */
 footer {
   background-color: #478da0;
   height: 100px;
@@ -1121,27 +1125,27 @@ footer {
   font-weight: 400;
   color: #505050;
 }
-/* line 928, ../sass/style.scss */
+/* line 933, ../sass/style.scss */
 footer p {
   display: inline-block;
   float: left;
   width: 50%;
   margin-top: 50px;
 }
-/* line 933, ../sass/style.scss */
+/* line 938, ../sass/style.scss */
 footer p span {
   color: #ebebeb;
   font-weight: 500;
   text-transform: uppercase;
   padding-left: 10px;
 }
-/* line 941, ../sass/style.scss */
+/* line 946, ../sass/style.scss */
 footer .sociall {
   float: right;
   width: 50%;
   color: white;
 }
-/* line 945, ../sass/style.scss */
+/* line 950, ../sass/style.scss */
 footer .sociall p {
   float: right;
   margin-top: 40px;
@@ -1153,7 +1157,7 @@ footer .sociall p {
   font-family: "PT Sans", sans-serif;
   margin-right: 15px;
 }
-/* line 956, ../sass/style.scss */
+/* line 961, ../sass/style.scss */
 footer .sociall ul {
   float: right;
   padding-top: 45px;
@@ -1161,21 +1165,21 @@ footer .sociall ul {
   display: inline-block;
   text-align: left;
 }
-/* line 962, ../sass/style.scss */
+/* line 967, ../sass/style.scss */
 footer .sociall ul li {
   display: inline-block;
   float: left;
   margin-left: 10px;
 }
-/* line 966, ../sass/style.scss */
+/* line 971, ../sass/style.scss */
 footer .sociall ul li a {
   padding: 5px;
 }
-/* line 969, ../sass/style.scss */
+/* line 974, ../sass/style.scss */
 footer .sociall ul li a:hover i {
   color: #69daf8;
 }
-/* line 973, ../sass/style.scss */
+/* line 978, ../sass/style.scss */
 footer .sociall ul li a i {
   color: white;
   font-size: 18px;

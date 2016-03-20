@@ -416,9 +416,9 @@ small {
 		text-align: center;
 		color: #6E6E6E;
 		font-family: Calibri;
-		font-size: 18px;
-		line-height: 18px;
-		font-weight: 600;
+   		font-size: 20px;
+    	line-height: 20px;
+    	font-weight: 100;
 		margin-bottom: 55px;
 	}
 	.blocks{
@@ -526,7 +526,7 @@ small {
 		height: 700px;
 		.grid-item{
 			padding: 2px;
-			width: 368px;
+			width: 32%;
 			height: 345px;
     		float: left;
     		overflow: hidden;
@@ -541,14 +541,14 @@ small {
 				}	
 			}	
 			img{
-				width: 368px;
-				height: 345px;
+				width: 100%;
+				height: 100%;
 			}
 			.port_item_cont{
 				margin-top: -349px;
 				position: relative; 
 				z-index: 100;
-				width: 368px;
+				width: auto;
 				height: 345px;
 				background-color: rgba(0,0,0,.8);
 				text-align: center;
@@ -828,9 +828,14 @@ small {
 					margin-bottom: 20px;
 	  			}
 	  			span{
+	  				a{
 					color: $dark_grey;
 	        		font-weight: 400;
 	        		text-transform: uppercase;
+	        		&:hover{
+	        			color: white;
+	        		}
+	        		}
 	  			}
 			}
 		}
