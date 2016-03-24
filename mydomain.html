@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head profile="http://www.w3.org/2005/10/profile">
 	<title>Gentlemen DEV</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="initial-scale=1.0,width=device-width" />
+	<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	
 	<link rel="stylesheet" type="text/css" href="css/css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/css/media.css">
 	<link rel="stylesheet" type="text/css" href="css/css/animate.css">
@@ -60,17 +62,17 @@
 				<h1>There are only two perfections for gentleman:<br /><span>women & developing</span></h1>
 				<div class="main_button">
 					<a class="left popup-with-form" href="#test-form">Get started</a>
-					<form id="test-form" class="my_style_form mfp-hide white-popup-block">
+					<form  action="http://formspree.io/agragregra@ya.ru" novalidate target="_blank" method="post" id="test-form" class="my_style_form mfp-hide white-popup-block">
 						<p>Name: <br />
-						<input class="text-danger" name="name" type="text" placeholder="Your name" required="required">
+						<input class="text-danger" name="name" type="text" placeholder="Your name" data-validation-required-message="Ви не ввели своє ім'я" required>
 						</p>
 						<p>Subject: <br />
-						<input class="text-danger" name="subject" type="text" placeholder="What are you need" required="required">
+						<input class="text-danger" name="subject" type="text" placeholder="What are you need" data-validation-required-message="Ви не ввели свій E-mail" required >
 						</p>
 						<p>Email: <br />
-						<input class="text-danger" name="email" type="text" placeholder="Your Email" required="required">
+						<input class="text-danger" name="email" type="text" placeholder="Your Email" data-validation-required-message="Ви не ввели повідомлення" required>
 						</p>
-						<p  class="full_width">Your message<br />
+						<p class="full_width">Your message<br />
 						<textarea class="text-danger" name="message" placeholder=""></textarea>
 						</p>
 						<p><input class="my_button" type="submit" value="Send"></p>
@@ -215,7 +217,8 @@
 	 					<img src="img/masonry/1.jpg">
 	 					<div class="port_item_cont">
 							<h3>Site number one</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem mollitia maiores perferendis eius porro commodi ullam laborum, nesciunt iure ab. Natus dolorum iure omnis dicta, fugiat aliquam inventore officiis illum?</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem mollitia maiores perferendis eius porro commodi</p>
+
 							<a href="#content_img1" class="image-popup-fit-width img_width" >Look  Details</a>
 							<div id="content_img1" class="mfp-hide white-popup-block">
 								<h3>Blah Blah</h3>
@@ -226,6 +229,68 @@
 			</div>
 		</div>
 	</section><!--end works-->
+	<section id="prices">
+		<h3 class="main_head">Our price</h3>
+		
+		<div class="wrapper">
+
+			<div class="container_p" id='two' data-containerId='container2'>
+				<img class="icon" src="img/price/ico1.png" alt="">
+				<h4 class="text">Landing Page</h4>
+				<div class="hidden-text">
+					<p> The general goal of a landing page is to convert site visitors into sales or leads.</p>
+					<p>Time: <span class="time">Less than 10 days</span></p>
+					<p>Price: <span>100$</span></p>
+					<a href="#contact" class="button1">Order</a>
+				</div>			
+			</div>
+
+			<div class="container_p" id='three' data-containerId='container3'>
+				<img class="icon" src="img/price/ico2.png" alt="">
+				<h4 class="text">Personal site</h4>
+				<div class="hidden-text">
+					<p>Personal webpages are inherently self promotional: you want to tell viewers who you are and what you can do for them.</p>
+					<p>Time: <span class="time">Less than 20 days</span></p>
+					<p>Price: <span>150$</span></p>
+					<a href="#contact" class="button2">Order</a>
+				</div>				
+			</div>
+
+			<div class="container_p" id='for' data-containerId='container4'>
+				<img class="icon" src="img/price/ico3.png" alt="">
+				<h4 class="text">Corporate site</h4>
+				<div class="hidden-text">
+					<p>Corporate site is an informational website operated by a business or other private enterprise such as a charity or nonprofit foundation.</p>
+					<p>Time: <span class="time">Less than 30 days</span></p>
+					<p>Price:<span> 200$</span></p>
+					<a href="#contact" class="button3">Order</a>
+				</div>			
+			</div>
+
+			<div class="container_p" id='five' data-containerId='container5'>
+				<img class="icon" src="img/price/ico4.png" alt="">
+				<h4 class="text">Web store</h4>
+				<div class="hidden-text">
+					<p >With this you can sell your product regardless of the location. Potential buyers may be people from all over the world.</p>
+					<p>Time: <span class="time">Depending from the task of</span></p>
+					<p>Price:<span> from 300$</span></p>
+					<a href="#contact" class="button4">Order</a>
+				</div>			
+			</div>
+
+			<div class="container_p" id='six' data-containerId='container6'>
+				<img class="icon" src="img/price/ico5.png" alt="">
+				<h4 class="text">Personal Projects</h4>	
+				<div class="hidden-text">
+					<p >It is your project. Please tell us what do you want to realise.</p>
+					<p>Time: <span class="time">Depending from the task of</span></p>
+					<p>Price: <span> from 10$ </span></p>
+					<a href="#contact" class="button5">Order</a>
+				</div>		
+			</div>
+		</div>
+
+	</section>
 	<section class="about_us" id="about_us">
 		<div class="wrapper">
 			<h3 class="main_head">About us</h3>
@@ -381,15 +446,15 @@
 		<div class="wrapper">	
 			<h3 class="main_head">Get in touch</h3>
 			<p class="centr_p">Fill in the form below. Describe your wishes about the site. And we will contact with you by the E-mail.</p>
-			<form action="	">
+			<form action="http://formspree.io/gentlemendev@gmail.com" novalidate target="_blank" method="post">
 				<p>Name: <br />
-				<input type="text" placeholder="Your name">
+				<input type="text" name="name" placeholder="Your name" required>
 				</p>
-				<p>Subject: <br />
-				<input type="text" placeholder="What are you need">
+				<p >Subject: <br />
+				<input class="add_tex" name="subject" type="text" placeholder="What are you need" required>
 				</p>
 				<p>Email: <br />
-				<input type="text" placeholder="Your Email">
+				<input type="text" name="Email" placeholder="Your Email" required>
 				</p>
 				<p class="full_width">Your message<br />
 				<textarea name="message" placeholder=""></textarea>

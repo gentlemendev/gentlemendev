@@ -26,7 +26,7 @@ section{
 	width: 86%;
 }
 header{
-	background-image: url(../../img/bg3.jpg);
+	background-image: url(../../img/bg4.jpg);
 	width: 100%;
 	height: 626px;
 	background-size: cover;
@@ -580,6 +580,129 @@ small {
 			}
 		}	
 	}	
+}
+#prices{
+	height: 480px;
+	position: relative;
+	z-index: 4;
+}
+
+div.container_p{
+	width: 20%;
+	height: 270px;
+	float: left;
+	-webkit-transition: height .4s;
+	position: relative;
+	z-index: 20;
+
+}
+
+div#two{
+	background-color:rgb(105, 184, 248);
+
+}
+
+div#three{
+	background-color: rgb( 22, 145, 190);
+}
+
+div#for{
+	background-color: rgb( 22, 107, 162);
+}
+
+div#five{
+	background-color: rgb( 27, 54, 71);
+}
+
+div#six{
+	background-color: rgb(21, 40, 54);
+}
+
+img.icon{
+	display: block;
+	margin: 50px auto;
+	background-color: rgba(255, 255, 255, 0.2);
+	width: 60px;
+	padding: 20px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-box-shadow: 0px 0px 0px 30px rgba(255, 255, 255, 0);
+	-webkit-transition: box-shadow .4s;
+}
+
+h4.text{
+	font-size: 1.2em;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	opacity: .6;
+	font-weight: 400;
+	-webkit-transition: padding-top .4s;
+}
+.hidden-text{
+	color: white;
+	font-size: 0.9em;
+	padding: 5px;
+	opacity: 0;
+	margin-top: 40px;
+	text-align: center;
+	-webkit-transition: padding-top .4s;
+}
+.hidden-text p{
+	margin-bottom: 5px;
+	font-size: 12px;
+}
+.hidden-text p span{
+	color: #ffd83c;
+	font-size: 18px;	
+	font-weight: 400;
+	opacity: 0;
+	transition-delay: .1s;
+}
+.hidden-text .time{
+	margin-top: 10px;
+	color: #7bfba8;
+	text-shadow: 0 0 1px rgba(0,0,0,0.3);
+	opacity: 0;
+	transition-delay: .1s;
+	font-size: 13px;
+
+}
+.hidden-text a{
+	display: inline-block;
+	opacity: 0;
+	transition-delay: .1s;
+	margin-top: 10px;
+	padding: 5px 10px;
+	border: solid 1px white;
+	color: white;
+}
+div.container_p:hover .hidden-text .time{
+	opacity: 1;
+}
+div.container_p:hover .hidden-text p span{
+	opacity: 1;
+}
+
+div.container_p:hover{
+		height: 480px;
+}
+div.container_p:hover .hidden-text{
+	opacity: 1;
+}
+div.container_p:hover .hidden-text a{
+	opacity: 1;
+}
+
+div.container_p:hover h4.text{
+	padding-top: 30px;
+	opacity: 1;
+
+}
+
+div.container_p:hover img.icon{
+	-webkit-box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.6);
 }
 
 .about_us{

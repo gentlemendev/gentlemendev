@@ -1,3 +1,29 @@
+
+$('.button1').on('click', function() {
+  $('.add_tex').val('');
+  $('.add_tex').val($('.add_tex').val() + 'landing page');
+});
+
+$('.button2').on('click', function() {
+  $('.add_tex').val('');
+  $('.add_tex').val($('.add_tex').val() + 'Personal site');
+});
+
+$('.button3').on('click', function() {
+  $('.add_tex').val('');
+  $('.add_tex').val($('.add_tex').val() + 'Corporate site');
+});
+
+$('.button4').on('click', function() {
+  $('.add_tex').val('');
+  $('.add_tex').val($('.add_tex').val() + 'Web store');
+});
+
+$('.button5').on('click', function() {
+  $('.add_tex').val('');
+  $('.add_tex').val($('.add_tex').val() + 'Personal Projects');
+});
+
 var isAnimationComplete = false;
 $(window).scroll(function(){
 	$('.fUp').each(function(){
@@ -42,7 +68,10 @@ $(window).scroll(function(){
 	});
 
 });
+
+
 $(document).ready(function(){
+
 
 	$(".image-popup-fit-width").magnificPopup({
 		type:'inline',

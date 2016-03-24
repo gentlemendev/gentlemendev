@@ -80,6 +80,12 @@
 	.our_statistic .midle_block{
 		width: 100%;
 	}
+	#prices{
+	height: 525px;
+	}
+	div.container_p:hover{
+		height: 520px;
+}
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
@@ -104,6 +110,14 @@
 	.my_style_form .mfp-close {
     	right: 3% !important;
 	}
+	div.container_p{
+	width: 100%;
+	margin: 0 auto;
+	}
+	#prices{
+	height: 1575px;
+	}
+
 	.service .one_block{
 		width: 95%;
 		margin: 20px auto;	
